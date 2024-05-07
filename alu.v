@@ -18,6 +18,7 @@ module alu (
 
 endmodule
 
+// behavioral description of a 4-bit adder
 module adder4 (S, cout, A, B, cin);
     input [3:0] A,B;
     input cin;
