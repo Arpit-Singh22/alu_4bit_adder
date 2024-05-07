@@ -1,0 +1,164 @@
+$date
+	Tue May 07 21:49:44 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alutest $end
+$var wire 1 ! CY $end
+$var wire 1 " P $end
+$var wire 1 # S $end
+$var wire 1 $ V $end
+$var wire 16 % Z [15:0] $end
+$var wire 1 & ZR $end
+$var reg 16 ' X [15:0] $end
+$var reg 16 ( Y [15:0] $end
+$scope module dut $end
+$var wire 1 ! carry $end
+$var wire 1 $ overflow $end
+$var wire 1 " parity $end
+$var wire 1 # sign $end
+$var wire 16 ) x [15:0] $end
+$var wire 16 * y [15:0] $end
+$var wire 16 + z [15:0] $end
+$var wire 1 & zero $end
+$scope module A0 $end
+$var wire 4 , A [3:0] $end
+$var wire 4 - B [3:0] $end
+$var wire 4 . S [3:0] $end
+$var wire 1 / cin $end
+$var wire 1 0 cout $end
+$upscope $end
+$scope module A1 $end
+$var wire 4 1 A [3:0] $end
+$var wire 4 2 B [3:0] $end
+$var wire 4 3 S [3:0] $end
+$var wire 1 0 cin $end
+$var wire 1 4 cout $end
+$upscope $end
+$scope module A2 $end
+$var wire 4 5 A [3:0] $end
+$var wire 4 6 B [3:0] $end
+$var wire 4 7 S [3:0] $end
+$var wire 1 4 cin $end
+$var wire 1 8 cout $end
+$upscope $end
+$scope module A3 $end
+$var wire 4 9 A [3:0] $end
+$var wire 4 : B [3:0] $end
+$var wire 4 ; S [3:0] $end
+$var wire 1 8 cin $end
+$var wire 1 ! cout $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx ;
+bx :
+bx 9
+x8
+bx 7
+bx 6
+bx 5
+x4
+bx 3
+bx 2
+bx 1
+x0
+0/
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+x&
+bx %
+x$
+x#
+x"
+x!
+$end
+#5
+1$
+0#
+b0 ;
+1"
+1!
+b1111 7
+08
+b1111 3
+04
+b1111 .
+b111111111111 %
+b111111111111 +
+0&
+00
+b0 -
+b0 2
+b0 6
+b1000 :
+b1111 ,
+b1111 1
+b1111 5
+b1000 9
+b1000000000000000 (
+b1000000000000000 *
+b1000111111111111 '
+b1000111111111111 )
+#10
+0$
+1&
+b0 7
+18
+b0 3
+14
+0#
+10
+1!
+b0 .
+b0 ;
+b0 %
+b0 +
+b10 -
+b0 :
+b1110 ,
+b1111 9
+b10 (
+b10 *
+b1111111111111110 '
+b1111111111111110 )
+#15
+1$
+1#
+b1111 ;
+0!
+b1111 7
+08
+b1111 3
+04
+b1111 .
+b1111111111111111 %
+b1111111111111111 +
+0&
+00
+b101 -
+b101 2
+b101 6
+b101 :
+b1010 ,
+b1010 1
+b1010 5
+b1010 9
+b101010101010101 (
+b101010101010101 *
+b1010101010101010 '
+b1010101010101010 )
+#20
